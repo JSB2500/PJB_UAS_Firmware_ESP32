@@ -1,0 +1,2 @@
+eclipse.preferences.version=1
+org.eclipse.linuxtools.tools.launch.core.LinuxtoolsPath=C\:\\ESP\\tools\\tools\\cmake\\3.13.4\\bin;C\:\\ESP\\tools\\tools\\xtensa-esp32-elf\\esp32-2019r1-8.2.0\\xtensa-esp32-elf\\bin

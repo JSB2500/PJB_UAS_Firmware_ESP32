@@ -1,0 +1,383 @@
+00:12:53 **** Build of configuration Default for project 05_BluetoothSource ****
+python C:/ESP/esp-idf/tools/windows/eclipse_make.py -j flash 
+Running make in 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource'
+including C:/ESP/esp-idf/components/app_update/Makefile.projbuild...
+including C:/ESP/esp-idf/components/bootloader/Makefile.projbuild...
+including C:/ESP/esp-idf/components/bootloader_support/Makefile.projbuild...
+including C:/ESP/esp-idf/components/coap/Makefile.projbuild...
+including C:/ESP/esp-idf/components/esp32/Makefile.projbuild...
+including C:/ESP/esp-idf/components/esptool_py/Makefile.projbuild...
+including C:/ESP/esp-idf/components/mbedtls/Makefile.projbuild...
+including C:/ESP/esp-idf/components/nghttp/Makefile.projbuild...
+including C:/ESP/esp-idf/components/partition_table/Makefile.projbuild...
+including C:/ESP/esp-idf/components/ulp/Makefile.projbuild...
+including C:/ESP/esp-idf/components/unity/Makefile.projbuild...
+Toolchain path: C:/msys32/opt/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe
+Toolchain version: crosstool-ng-1.22.0-80-g6c4433a5
+Compiler version: 5.2.0
+PROJECT_PATH= COMPONENT_DIRS= make -C C:/ESP/esp-idf/components/bootloader/subproject V=1 BUILD_DIR_BASE=C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader TEST_COMPONENTS= TESTS_ALL= EXCLUDE_COMPONENTS= C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader/bootloader.bin
+python C:/ESP/esp-idf/tools/check_python_dependencies.py
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/app_trace -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/app_trace/component.mk COMPONENT_NAME=app_trace build
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/app_update -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/app_update/component.mk COMPONENT_NAME=app_update build
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/asio -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/asio/component.mk COMPONENT_NAME=asio build
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/aws_iot -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/aws_iot/component.mk COMPONENT_NAME=aws_iot build
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader_support -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/bootloader_support/component.mk COMPONENT_NAME=bootloader_support build
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bt -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/bt/component.mk COMPONENT_NAME=bt build
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/coap -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/coap/component.mk COMPONENT_NAME=coap build
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/console -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/console/component.mk COMPONENT_NAME=console build
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/cxx -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/cxx/component.mk COMPONENT_NAME=cxx build
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/driver -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/driver/component.mk COMPONENT_NAME=driver build
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp-tls -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/esp-tls/component.mk COMPONENT_NAME=esp-tls build
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp32 -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/esp32/component.mk COMPONENT_NAME=esp32 build
+make[1]: Entering directory 'C:/ESP/esp-idf/components/bootloader/subproject'
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/aws_iot'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/aws_iot'
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/asio'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/asio'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_adc_cal -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/esp_adc_cal/component.mk COMPONENT_NAME=esp_adc_cal build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/driver'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/driver'
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp-tls'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp-tls'
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/app_trace'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/app_trace'
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/cxx'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/cxx'
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/app_update'
+make[1]: Nothing to be done for 'build'.
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_adc_cal'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_adc_cal'
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/coap'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/coap'
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/app_update'
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader_support'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader_support'
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bt'
+Python requirements from C:/ESP/esp-idf/requirements.txt are satisfied.
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bt'
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp32'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp32'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_event -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/esp_event/component.mk COMPONENT_NAME=esp_event build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/console'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/console'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_http_client -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/esp_http_client/component.mk COMPONENT_NAME=esp_http_client build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_event'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_event'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_http_server -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/esp_http_server/component.mk COMPONENT_NAME=esp_http_server build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_http_client'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_http_client'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_https_ota -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/esp_https_ota/component.mk COMPONENT_NAME=esp_https_ota build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_http_server'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_http_server'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_https_server -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/esp_https_server/component.mk COMPONENT_NAME=esp_https_server build
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_ringbuf -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/esp_ringbuf/component.mk COMPONENT_NAME=esp_ringbuf build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_https_ota'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_https_ota'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/ethernet -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/ethernet/component.mk COMPONENT_NAME=ethernet build
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/expat -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/expat/component.mk COMPONENT_NAME=expat build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_https_server'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_https_server'
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_ringbuf'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_ringbuf'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/fatfs -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/fatfs/component.mk COMPONENT_NAME=fatfs build
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/freemodbus -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/freemodbus/component.mk COMPONENT_NAME=freemodbus build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/ethernet'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/ethernet'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/freertos -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/freertos/component.mk COMPONENT_NAME=freertos build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/expat'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/expat'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/heap -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/heap/component.mk COMPONENT_NAME=heap build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/freemodbus'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/freemodbus'
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/freertos'
+make[1]: Nothing to be done for 'build'.
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/idf_test -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/idf_test/component.mk COMPONENT_NAME=idf_test build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/heap'
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/freertos'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/heap'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/jsmn -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/jsmn/component.mk COMPONENT_NAME=jsmn build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/fatfs'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/fatfs'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/json -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/json/component.mk COMPONENT_NAME=json build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/jsmn'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/jsmn'
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/idf_test'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/idf_test'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/libsodium -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/libsodium/component.mk COMPONENT_NAME=libsodium build
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/log -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/log/component.mk COMPONENT_NAME=log build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/json'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/json'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/lwip -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/lwip/component.mk COMPONENT_NAME=lwip build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/log'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/log'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/main -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/main/component.mk COMPONENT_NAME=main build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/libsodium'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/libsodium'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/mbedtls -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/mbedtls/component.mk COMPONENT_NAME=mbedtls build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/main'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/main'
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/lwip'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/lwip'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/mdns -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/mdns/component.mk COMPONENT_NAME=mdns build
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/micro-ecc -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/micro-ecc/component.mk COMPONENT_NAME=micro-ecc build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/mdns'
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/mbedtls'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/mbedtls'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/mdns'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/mqtt -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/mqtt/component.mk COMPONENT_NAME=mqtt build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/micro-ecc'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/micro-ecc'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/newlib -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/newlib/component.mk COMPONENT_NAME=newlib build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/mqtt'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/mqtt'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/nghttp -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/nghttp/component.mk COMPONENT_NAME=nghttp build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/newlib'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/newlib'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/nvs_flash -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/nvs_flash/component.mk COMPONENT_NAME=nvs_flash build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/nghttp'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/nghttp'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/openssl -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/openssl/component.mk COMPONENT_NAME=openssl build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/nvs_flash'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/nvs_flash'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/protobuf-c -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/protobuf-c/component.mk COMPONENT_NAME=protobuf-c build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/openssl'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/openssl'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/protocomm -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/protocomm/component.mk COMPONENT_NAME=protocomm build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/protobuf-c'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/protobuf-c'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/pthread -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/pthread/component.mk COMPONENT_NAME=pthread build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/protocomm'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/protocomm'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/sdmmc -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/sdmmc/component.mk COMPONENT_NAME=sdmmc build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/pthread'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/pthread'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/smartconfig_ack -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/smartconfig_ack/component.mk COMPONENT_NAME=smartconfig_ack build
+including C:/ESP/esp-idf/components/esptool_py/Makefile.projbuild...
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/sdmmc'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/sdmmc'
+including C:/ESP/esp-idf/components/bootloader_support/Makefile.projbuild...
+including C:/ESP/esp-idf/components/bootloader/subproject/main/Makefile.projbuild...
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/smartconfig_ack'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/smartconfig_ack'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/soc -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/soc/component.mk COMPONENT_NAME=soc build
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/spi_flash -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/spi_flash/component.mk COMPONENT_NAME=spi_flash build
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/spiffs -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/spiffs/component.mk COMPONENT_NAME=spiffs build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/soc'
+make[1]: Nothing to be done for 'build'.
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/spi_flash'
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/soc'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/spi_flash'
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/spiffs'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/spiffs'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/tcp_transport -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/tcp_transport/component.mk COMPONENT_NAME=tcp_transport build
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/tcpip_adapter -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/tcpip_adapter/component.mk COMPONENT_NAME=tcpip_adapter build
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/ulp -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/ulp/component.mk COMPONENT_NAME=ulp build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/tcp_transport'
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/tcpip_adapter'
+make[1]: Nothing to be done for 'build'.
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/tcpip_adapter'
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/tcp_transport'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/unity -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/unity/component.mk COMPONENT_NAME=unity build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/ulp'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/ulp'
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/unity'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/unity'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/vfs -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/vfs/component.mk COMPONENT_NAME=vfs build
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/wear_levelling -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/wear_levelling/component.mk COMPONENT_NAME=wear_levelling build
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/wifi_provisioning -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/wifi_provisioning/component.mk COMPONENT_NAME=wifi_provisioning build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/vfs'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/vfs'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/wpa_supplicant -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/wpa_supplicant/component.mk COMPONENT_NAME=wpa_supplicant build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/wear_levelling'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/wear_levelling'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/xtensa-debug-module -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/xtensa-debug-module/component.mk COMPONENT_NAME=xtensa-debug-module build
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/wifi_provisioning'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/wifi_provisioning'
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/wpa_supplicant'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/wpa_supplicant'
+make[1]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/xtensa-debug-module'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/xtensa-debug-module'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader/bootloader_support -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/bootloader_support/component.mk COMPONENT_NAME=bootloader_support build
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader/log -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/log/component.mk COMPONENT_NAME=log build
+make[2]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader/bootloader_support'
+make[2]: Nothing to be done for 'build'.
+make[2]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader/bootloader_support'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader/spi_flash -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/spi_flash/component.mk COMPONENT_NAME=spi_flash build
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader/micro-ecc -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/micro-ecc/component.mk COMPONENT_NAME=micro-ecc build
+make[2]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader/spi_flash'
+make[2]: Nothing to be done for 'build'.
+make[2]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader/spi_flash'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader/soc -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/soc/component.mk COMPONENT_NAME=soc build
+make[2]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader/log'
+make -C C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader/main -f C:/ESP/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/ESP/esp-idf/components/bootloader/subproject/main/component.mk COMPONENT_NAME=main build
+make[2]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader/micro-ecc'
+make[2]: Nothing to be done for 'build'.
+make[2]: Nothing to be done for 'build'.
+make[2]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader/log'
+Target 'component-app_update-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/app_update/libapp_update.a'
+make[2]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader/micro-ecc'
+Target 'component-asio-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/asio/libasio.a'
+make[2]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader/soc'
+make[2]: Nothing to be done for 'build'.
+make[2]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader/soc'
+Target 'component-app_trace-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/app_trace/libapp_trace.a'
+Target 'component-aws_iot-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/aws_iot/libaws_iot.a'
+Target 'component-bt-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bt/libbt.a'
+Target 'component-coap-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/coap/libcoap.a'
+Target 'component-console-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/console/libconsole.a'
+Target 'component-driver-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/driver/libdriver.a'
+Target 'component-cxx-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/cxx/libcxx.a'
+Target 'component-esp-tls-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp-tls/libesp-tls.a'
+Target 'component-bootloader_support-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader/bootloader_support/libbootloader_support.a'
+Target 'component-freemodbus-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/freemodbus/libfreemodbus.a'
+Target 'component-esp_adc_cal-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_adc_cal/libesp_adc_cal.a'
+Target 'component-esp_event-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_event/libesp_event.a'
+Target 'component-log-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader/log/liblog.a'
+Target 'component-spi_flash-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader/spi_flash/libspi_flash.a'
+Target 'component-micro-ecc-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader/micro-ecc/libmicro-ecc.a'
+Target 'component-esp_http_client-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_http_client/libesp_http_client.a'
+Target 'component-bootloader_support-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader_support/libbootloader_support.a'
+make[2]: Entering directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader/main'
+make[2]: Nothing to be done for 'build'.
+make[2]: Leaving directory 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader/main'
+Target 'component-esp_https_ota-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_https_ota/libesp_https_ota.a'
+Target 'component-esp_https_server-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_https_server/libesp_https_server.a'
+Target 'component-esp_ringbuf-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_ringbuf/libesp_ringbuf.a'
+Target 'component-ethernet-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/ethernet/libethernet.a'
+Target 'component-expat-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/expat/libexpat.a'
+Target 'component-fatfs-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/fatfs/libfatfs.a'
+Target 'component-esp32-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp32/libesp32.a'
+Target 'component-freertos-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/freertos/libfreertos.a'
+Target 'component-heap-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/heap/libheap.a'
+Target 'component-idf_test-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/idf_test/libidf_test.a'
+Target 'component-jsmn-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/jsmn/libjsmn.a'
+Target 'component-tcpip_adapter-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/tcpip_adapter/libtcpip_adapter.a'
+Target 'component-wpa_supplicant-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/wpa_supplicant/libwpa_supplicant.a'
+Target 'component-log-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/log/liblog.a'
+Target 'component-lwip-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/lwip/liblwip.a'
+Target 'component-main-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/main/libmain.a'
+Target 'component-mbedtls-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/mbedtls/libmbedtls.a'
+Target 'component-mdns-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/mdns/libmdns.a'
+Target 'component-soc-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader/soc/libsoc.a'
+Target 'component-esp_http_server-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_http_server/libesp_http_server.a'
+Target 'component-micro-ecc-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/micro-ecc/libmicro-ecc.a'
+Target 'component-main-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader/main/libmain.a'
+Target 'component-mqtt-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/mqtt/libmqtt.a'
+Target 'component-nghttp-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/nghttp/libnghttp.a'
+Target 'component-newlib-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/newlib/libnewlib.a'
+Target 'component-nvs_flash-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/nvs_flash/libnvs_flash.a'
+Target 'component-openssl-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/openssl/libopenssl.a'
+Target 'component-protobuf-c-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/protobuf-c/libprotobuf-c.a'
+Target 'component-pthread-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/pthread/libpthread.a'
+Target 'component-protocomm-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/protocomm/libprotocomm.a'
+Target 'component-sdmmc-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/sdmmc/libsdmmc.a'
+Target 'component-smartconfig_ack-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/smartconfig_ack/libsmartconfig_ack.a'
+Target 'component-soc-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/soc/libsoc.a'
+Target 'component-spi_flash-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/spi_flash/libspi_flash.a'
+Target 'component-spiffs-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/spiffs/libspiffs.a'
+Target 'component-tcp_transport-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/tcp_transport/libtcp_transport.a'
+Target 'component-json-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/json/libjson.a'
+Target 'component-ulp-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/ulp/libulp.a'
+Target 'component-unity-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/unity/libunity.a'
+Target 'component-vfs-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/vfs/libvfs.a'
+Target 'component-wear_levelling-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/wear_levelling/libwear_levelling.a'
+Target 'component-wifi_provisioning-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/wifi_provisioning/libwifi_provisioning.a'
+Target 'component-libsodium-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/libsodium/liblibsodium.a'
+Target 'component-xtensa-debug-module-build' responsible for 'C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/xtensa-debug-module/libxtensa-debug-module.a'
+python C:/ESP/esp-idf/components/app_update/gen_empty_partition.py --size 0 /c/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/ota_data_initial.bin
+make[1]: Leaving directory 'C:/ESP/esp-idf/components/bootloader/subproject'
+xtensa-esp32-elf-gcc -nostdlib -u call_user_start_cpu0  -Wl,--gc-sections -Wl,-static -Wl,--start-group  -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/app_trace -lapp_trace -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/app_update -lapp_update -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/asio -lasio -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/aws_iot  -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader_support -lbootloader_support -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bt -lbt -L C:/ESP/esp-idf/components/bt/lib -lbtdm_app -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/coap -lcoap -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/console -lconsole -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/cxx -lcxx -u __cxa_guard_dummy -u __cxx_fatal_exception -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/driver -ldriver -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp-tls -lesp-tls -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp32 -lesp32 C:/ESP/esp-idf/components/esp32/libhal.a -LC:/ESP/esp-idf/components/esp32/lib -lcore -lrtc -lnet80211 -lpp -lwpa -lsmartconfig -lcoexist -lwps -lwpa2 -lespnow -lphy -lmesh -L C:/ESP/esp-idf/components/esp32/ld -T esp32_out.ld -u ld_include_panic_highint_hdl -T C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp32/esp32.common.ld -T esp32.rom.ld -T esp32.peripherals.ld -T esp32.rom.libgcc.ld -T esp32.rom.spiram_incompatible_fns.ld  -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_adc_cal -lesp_adc_cal -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_event -lesp_event -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_http_client -lesp_http_client -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_http_server -lesp_http_server -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_https_ota -lesp_https_ota -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_https_server -lesp_https_server -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/esp_ringbuf -lesp_ringbuf -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/ethernet -lethernet -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/expat -lexpat -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/fatfs -lfatfs -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/freemodbus -lfreemodbus -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/freertos -lfreertos -Wl,--undefined=uxTopUsedPriority -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/heap -lheap -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/idf_test -lidf_test -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/jsmn -ljsmn -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/json -ljson -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/libsodium -llibsodium -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/log -llog -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/lwip -llwip -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/main -lmain -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/mbedtls -lmbedtls -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/mdns -lmdns -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/micro-ecc -lmicro-ecc -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/mqtt -lmqtt -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/newlib C:/ESP/esp-idf/components/newlib/lib/libc.a C:/ESP/esp-idf/components/newlib/lib/libm.a -lnewlib -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/nghttp -lnghttp -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/nvs_flash -lnvs_flash -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/openssl -lopenssl -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/protobuf-c -lprotobuf-c -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/protocomm -lprotocomm -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/pthread -lpthread -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/sdmmc -lsdmmc -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/smartconfig_ack -lsmartconfig_ack -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/soc -lsoc -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/spi_flash -lspi_flash -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/spiffs -lspiffs -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/tcp_transport -ltcp_transport -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/tcpip_adapter -ltcpip_adapter -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/ulp -lulp -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/unity -lunity -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/vfs -lvfs -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/wear_levelling -lwear_levelling -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/wifi_provisioning -lwifi_provisioning -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/wpa_supplicant -lwpa_supplicant -LC:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/xtensa-debug-module -lxtensa-debug-module -lgcc -lstdc++ -lgcov -Wl,--end-group -Wl,-EL -o C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/05_BluetoothSource.elf -Wl,-Map=C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/05_BluetoothSource.map
+python C:/ESP/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 elf2image --flash_mode "dio" --flash_freq "40m" --flash_size "2MB"  -o /c/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/05_BluetoothSource.bin C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/05_BluetoothSource.elf
+esptool.py v2.6-beta1
+Flashing binaries to serial port COM8 (app at offset 0x10000)...
+python C:/ESP/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 --port "COM8" --baud 921600 --before "default_reset" --after "hard_reset" write_flash -z --flash_mode "dio" --flash_freq "40m" --flash_size detect   0x1000 C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/bootloader/bootloader.bin 0x10000 /c/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/05_BluetoothSource.bin 0x8000 C:/JSB/Cloud/Spaceless/PJB_Radio_ESP32/05_BluetoothSource/build/partitions_singleapp.bin
+esptool.py v2.6-beta1
+Serial port COM8
+Connecting....
+Chip is ESP32D0WDQ6 (revision 1)
+Features: WiFi, BT, Dual Core, Coding Scheme None
+MAC: 30:ae:a4:72:f6:44
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 921600
+Changed.
+Configuring flash size...
+Auto-detected Flash size: 4MB
+Flash params set to 0x0220
+Compressed 23120 bytes to 13712...
+
+Writing at 0x00001000... (100 %)
+Wrote 23120 bytes (13712 compressed) at 0x00001000 in 0.2 seconds (effective 1050.8 kbit/s)...
+Hash of data verified.
+Compressed 80336 bytes to 37590...
+
+Writing at 0x00010000... (33 %)
+Writing at 0x00014000... (66 %)
+Writing at 0x00018000... (100 %)
+Wrote 80336 bytes (37590 compressed) at 0x00010000 in 0.6 seconds (effective 1087.4 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.0 seconds (effective 1535.9 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+
+00:13:10 Build Finished (took 16s.714ms)
+

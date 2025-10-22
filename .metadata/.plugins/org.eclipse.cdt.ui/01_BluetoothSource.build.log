@@ -1,0 +1,10 @@
+17:25:52 **** Incremental Build of configuration Default for project 01_BluetoothSource ****
+Info: Configuration "Default" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+ -j all 
+Cannot run program "": Launching failed
+
+Error: Program "" not found in PATH
+PATH=[C:\Users\John Bladen\.espressif\tools\xtensa-esp32-elf\esp32-2019r1-8.2.0\xtensa-esp32-elf\bin]
+
+17:25:52 Build Failed. 1 errors, 0 warnings. (took 81ms)
+

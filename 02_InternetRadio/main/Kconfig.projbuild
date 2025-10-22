@@ -1,0 +1,20 @@
+menu "Example Configuration"
+
+    config ESP_WIFI_SSID
+        string "WiFi SSID"
+        default ""
+        help
+            WiFi name (service set identifier)
+
+    config ESP_WIFI_PASSWORD
+        string "WiFi Password"
+        default ""
+        help
+            WPA or WPA2
+
+    config ESP_MAXIMUM_RETRY
+        int "Maximum retry"
+        default 5
+        help
+            Set the maximum number of retries before connection aborts.
+endmenu
