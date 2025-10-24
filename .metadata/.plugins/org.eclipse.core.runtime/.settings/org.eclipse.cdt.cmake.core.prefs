@@ -1,5 +1,0 @@
-cmakeToolchains/1/__path=C\:\\ESP\\esp-idf\\tools\\cmake\\toolchain-esp32.cmake
-cmakeToolchains/1/cdt.toolChain.id=gcc-xtensa-C\:/esp/tools/tools/xtensa-esp32-elf/esp32-2019r1-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe
-cmakeToolchains/1/cdt.toolChain.type=org.eclipse.cdt.build.gcc
-cmakeToolchains/n=2
-eclipse.preferences.version=1
